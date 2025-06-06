@@ -1,1 +1,23 @@
 /* Your styles here */
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+h1{
+    font-size: 2rem;
+
+}
+h2{
+    font-size: 1.5;
+}
+h3{
+    font-size: 1.25rem;
+}
+
+ 
+
+.sfondoperlogo{
+    background-color: #222f3f;
+}
+header ul{
+    background-color: rgb(54, 71, 89);
+}
