@@ -1,23 +1,123 @@
 /* Your styles here */
-h1,h2,h3,h4,h5,h6{
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
-h1{
-    font-size: 2rem;
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5;
+}
+h3 {
+  font-size: 1.25rem;
+}
+body {
+  background-color: #e9edee;
+}
+header ul li {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+.w-f {
+  color: white;
+}
+.backImage {
+  background-image: url(/Amazon\ Page/assets/images/bg-image.png);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+.backImage h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.backImage p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
+.sfondoperlogo {
+  background-color: #222f3f;
 }
-h2{
-    font-size: 1.5;
+header ul {
+  background-color: rgb(54, 71, 89);
 }
-h3{
-    font-size: 1.25rem;
+main {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.sfondoperlogo img {
+  width: 120px;
+  padding: 20px;
+}
+.fourfoto a {
+  text-decoration: none;
+  color: #016e82;
+  font-weight: bold;
+}
+.b-a {
+  background-color: #f36700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* padding: 10px; */
+}
+.fourfoto {
+  display: inline-block;
+  background-color: white;
+}
+.fourfoto img {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+
+  margin: 10px;
+}
+.fourfoto h3,
+p {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px;
 }
 
- 
-
-.sfondoperlogo{
-    background-color: #222f3f;
+.fourfoto p {
+  padding-right: 800px;
 }
-header ul{
-    background-color: rgb(54, 71, 89);
+.soprafooter img {
+  width: 100%;
+  padding-top: 20px;
+}
+.soprafooter a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #016e82;
+}
+footer {
+  text-align: center;
+}
+footer img {
+  width: 150px;
+  padding: 40px;
+}
+.sfondofoot {
+  background-color: #222f3f;
+}
+.sfondochiaro {
+  background-color: rgb(54, 71, 89);
+}
+
+.sfondochiaro a {
+  color: white;
 }
