@@ -70,10 +70,17 @@ const nuovoOggetto = {
 };
 cars.push(nuovoOggetto);
 console.log(cars);
-
+cars[0].trims.pop();
+console.log(cars);
+cars[1].trims.pop();
+console.log(cars);
+cars[2].trims.pop();
+console.log(cars);
+cars[2].trims.pop();
+console.log(cars);
 // let elimina;
 // for (let i = 0; i < cars.length; i++) {
-//   elimina = cars[i].trims[length - 1];
+//   elimina = cars[i].trims[0];
 //   cars.pop(elimina);
 //   console.log(cars);
 // }
